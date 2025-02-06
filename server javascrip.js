@@ -107,6 +107,6 @@ app.post('/login', async (req, res) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+app.listen(8000, () => {
+    console.log(`Server running on http://localhost:${8000}`);
 });
